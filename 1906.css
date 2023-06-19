@@ -1,0 +1,67 @@
+/* flex, grid */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.headers {
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+/* .paragraphs {
+    text-align: center;
+    text-shadow: rgb(0, 255, 0);
+}*/
+
+.funtion{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button:hover, select:hover {
+    cursor: pointer;
+    background: azure;
+}
+
+button {
+    margin-top: 200px;
+    background: white;
+    border: 1px solid teal;
+    padding: 5px 10px;
+    border-radius: 40px;
+}
+
+.lists{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.image {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.some_paragraph {
+    font-size: 24;
+    display: flex;
+    justify-content: center;
+    text-shadow: rgb(0, 255, 0) 2px 3px 4px;
+}
